@@ -5,12 +5,15 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-intl": "^2.8.0",
+    "terra-base": "^5.4.0",
+    "terra-button": "^3.12.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "aggregate-translations": "tt-aggregate-translations -l ['en'] -d ./translations -o ./node_modules/terra-i18n/node_modules -f es6",
+    "start": "yarn run aggregate-translations && react-scripts start",
+    "build": "yarn run aggregate-translations && react-scripts build",
+    "test": "yarn run aggregate-translations && react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -27,5 +30,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "react-scripts": "^3.0.1",
+    "terra-aggregate-translations": "^1.0.0"
   }
 }
