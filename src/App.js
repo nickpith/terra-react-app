@@ -17,7 +17,7 @@ const AppHeader = injectIntl(({ intl }) => {
       <img src={logo} className="App-logo" alt="logo" />
       <p>
         Edit <code>src/App.js</code> and save to reload.
-      </p>
+      </p>  
       <Button 
         text={intl.formatMessage({id: 'App.Button'})}
         variant="de-emphasis"

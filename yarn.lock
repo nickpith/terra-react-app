@@ -8677,6 +8677,13 @@ react-app-polyfill@^1.0.5:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-app-rewired@^2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-2.1.8.tgz#e192f93b98daf96889418d33d3e86cf863812b56"
+  integrity sha512-wjXPdKPLscA7mn0I1de1NHrbfWdXz4S1ladaGgHVKdn1hTgKK5N6EdGIJM0KrS6bKnJBj7WuqJroDTsPKKr66Q==
+  dependencies:
+    semver "^5.6.0"
+
 react-dev-utils@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.0.0.tgz#bd2d16426c7e4cbfed1b46fb9e2ac98ec06fcdfa"
@@ -9574,6 +9581,11 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+single-spa-react@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/single-spa-react/-/single-spa-react-2.14.0.tgz#4a55ea74a57db06adb41f0de3419a0c378745e1b"
+  integrity sha512-KQ2/y7/JBIquK0WUiwb1/Y7f4qTZITNotw+JwNPesj0WKeCi91u0LOZe2ps56QMJbyB4UrA5IzMBwbYWDr1pIw==
+
 sisteransi@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.4.tgz#386713f1ef688c7c0304dc4c0632898941cad2e3"
@@ -10093,6 +10105,11 @@ symbol-tree@^3.2.2:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
+
+systemjs-webpack-interop@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/systemjs-webpack-interop/-/systemjs-webpack-interop-2.3.4.tgz#b4aca73800817aa5f736d039eca6220fd5614f4d"
+  integrity sha512-RubTMdfVZUq5+oB/G3V2wOfQUP8wIDf24siLGphlsUThDEo9h4pZx3bEtpUl5idEcspX6by0lBaCuwFzrB+jiQ==
 
 table@^5.2.3:
   version "5.4.6"
