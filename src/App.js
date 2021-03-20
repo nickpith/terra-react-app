@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'terra-button';
 import Base from 'terra-base';
 import { injectIntl } from 'react-intl';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -29,7 +30,19 @@ const AppHeader = injectIntl(({ intl }) => {
 function App(props) {
   return (
     <Base locale={locale}>
-      <AppHeader />
+      <Router basename="/app1">
+        <Switch>
+          <Route exact path="/">
+            <div>App 1 Home</div>
+          </Route>
+          <Route path="/page1">
+            <div>App 1 - Page 1</div>
+          </Route>
+          <Route>
+            <div>App 1 - Page Not Found</div>
+          </Route>
+        </Switch>
+      </Router>
     </Base>
   );
 }

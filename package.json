@@ -6,6 +6,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-intl": "^2.8.0",
+    "react-router-dom": "^5.2.0",
     "single-spa-react": "^2.14.0",
     "systemjs-webpack-interop": "^2.3.4",
     "terra-base": "^5.4.0",
